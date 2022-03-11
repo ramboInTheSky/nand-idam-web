@@ -1,0 +1,25 @@
+
+<head>
+  <script src="https://cdn.auth0.com/js/auth0/9.0.0/auth0.min.js"></script>
+  <script type="text/javascript">
+    /*
+    var auth0 = new auth0.WebAuth({
+      clientId: 'dpF5R5TUMk6NpofnpprxZytEtVrVLhRp',
+      domain: 'nandosidam.eu.auth0.com',
+      redirectUri: 'http://localhost:3000/callback',
+      responseType: 'token id_token',
+    });
+    */
+
+
+    var auth0 = new auth0.WebAuth({
+      clientId: 'dpF5R5TUMk6NpofnpprxZytEtVrVLhRp',
+      domain: 'nandosidam.eu.auth0.com',
+      callbackUrl: 'http://nandosidpidam-dev.eu-west-2.elasticbeanstalk.com/callback',
+      responseType: 'token id_token',
+    });
+
+
+    auth0.crossOriginVerification();
+  </script>
+</head>

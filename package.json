@@ -1,0 +1,23 @@
+{
+  "name": "nandos-idam-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "amido-react-scripts": "2.0.1",
+    "auth0-js": "^9.7.3",
+    "bootstrap": "^4.1.3",
+    "history": "^4.7.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.4.0",
+    "styled-components": "2.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
